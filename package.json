@@ -19,7 +19,8 @@
     "start": "storybook dev -p 6006",
     "build": "storybook build",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_6941554621bee18"
   },
   "eslintConfig": {
     "extends": [
@@ -52,8 +53,11 @@
     "@storybook/react": "7.0.27",
     "@storybook/react-webpack5": "7.0.27",
     "@storybook/testing-library": "0.2.0",
+    "chromatic": "^6.19.9",
     "eslint-plugin-storybook": "^0.6.12",
     "prop-types": "15.8.1",
     "storybook": "7.0.27"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "my-storybook@0.1.0"
 }
